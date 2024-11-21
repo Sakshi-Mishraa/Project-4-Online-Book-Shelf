@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shelf</title>
+    <link rel="Stylesheet" href="style.css">
+   </head>
+<body>
+    <h1>Online Book Shelf</h1>
+    <div class="form -container">
+        <h2></h2>
+        <form id="book form">
+            <label for="title" class="lableColor">New Book Title:</label>
+            <input type="text" id="title" name="title" class="input">
+            <br>
+            <label for="author" class="lableColor"> Book Author:</label>
+            <input type="text" id="author" name="author" class="input"> <br>
+            <label for="year" class="lableColor"> Publish Year:</label>
+            <input type="number" id="year" name="year" class="input"><br>
+            <br>
+            <button type="button" id="add">Add New Book</button>
+        </form>
+    </div>
+    <div class="book-list-container">
+        <h2>Book List</h2>
+        <table id="booklist">
+            <thead>
+                <tr>
+                    <th id="ttitle">Title</th>
+                    <th id="tauthor">Author</th>
+                    <th id="tyear">Publish Year</th>
+                    <th id="toperation">Operations</th>
+                </tr>
+                <tbody>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+<script src ="script.js"></script>  
+</body>
+</html>
